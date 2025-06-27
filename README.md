@@ -12,7 +12,7 @@ En esta actividad deberemos simular un sistema de entidades de Minecraft aplican
 
 Implementando su propio comportamiento. Con esto aplicaremos conceptos como interfaces, herencia y métodos abstractos para modelar objetos con características y acciones específicas.
 
-####Interfaz EntidadMinecraft
+#### Interfaz EntidadMinecraft
 
 Primero creamos una interfaz EntidadMinecraft.
 
