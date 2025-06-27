@@ -47,3 +47,29 @@ Esta clase nos sirve para crear zombis con comportamiento agresivo y propio dent
 
 ![Imagen de WhatsApp 2025-06-27 a las 16 46 50_a15ebba2](https://github.com/user-attachments/assets/777d20c8-eff8-4141-af9b-c5531f1366b3)
 
+
+#### Clase Aldeano 
+Es una clase que representa a un aldeano del mundo Minecraft, y hereda de EntidadBase. También implementa la interfaz EntidadMinecraft de forma indirecta porque EntidadBase la implementa.
+Lo que hace esta clase es que se creó para simular a un aldeano como personaje del juego Minecraft, con su propio comportamiento e información específica.
+Donde tiene lo siguiente:
+•	Un nombre 
+•	Un nivel de salud
+•	Un oficio 
+•	Acciones personalizadas (como interactuar)
+
+
+![image](https://github.com/user-attachments/assets/3d7f42de-283e-4047-bdc1-a017a5f890da)
+
+
+#### Main
+El programa ejecuta una serie de métodos sobre las entidades que creamos:
+•	El jugador aparece en pantalla mostrando su nombre y salud, luego interactúa con el entorno y finalmente se muestra su inventario.
+•	El zombi aparece mostrando su salud y luego realiza una acción, representando su agresividad.
+•	El aldeano aparece y realiza una interacción típica de su rol, ofreciendo un trato según su oficio.
+Cada entidad tiene su propio comportamiento, pero todas comparten la estructura básica definida por la interfaz EntidadMinecraft. 
+Le pusimos el System.out.println(), entre las entidades para que permita visualizar de forma separada las acciones de cada una en la consola.
+
+![image](https://github.com/user-attachments/assets/fec1b549-b82c-4d0e-9682-a448533070f7)
+
+
+
