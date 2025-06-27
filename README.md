@@ -39,4 +39,11 @@ Esta clase nos sirve para crear jugadores específicos con características y co
 
 ![Imagen de WhatsApp 2025-06-27 a las 16 46 06_03b9b5ad](https://github.com/user-attachments/assets/0dc9ff23-4486-44b7-bb7b-bc59c7241360)
 
+#### Clase Zombie
+Es una clase que Hereda de la clase abstracta **EntidadBase**, representando a un zombie con nombre, salud, nivel de agresividad y definir que es hostil por defecto, aqui tambien redefine el metodo **interactuar** para que el zombie ataque. 
+Sobreescribe **obtenerTipo** para devolver ""Zombi" y incluye un metodo para saber si es hostil. 
+
+Esta clase nos sirve para crear zombis con comportamiento agresivo y propio dentro del sistema de entidades. 
+
+![Imagen de WhatsApp 2025-06-27 a las 16 46 50_a15ebba2](https://github.com/user-attachments/assets/777d20c8-eff8-4141-af9b-c5531f1366b3)
 
