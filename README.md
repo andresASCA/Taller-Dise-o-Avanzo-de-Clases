@@ -28,3 +28,15 @@ Esta clase nos sirve para que otras clases hereden de ella que son **jugador**, 
 Tambien tiene un metodo **abstracto** llamado **interacturar** que cada subclase debera definir.
 
 ![Imagen de WhatsApp 2025-06-27 a las 16 45 37_1afdab04](https://github.com/user-attachments/assets/1f166358-d64a-4111-884f-21dc26b143fc)
+
+#### Clase Jugador 
+
+Es una clase que hereda de la clase abstracta **EntidadBase**. Lo que hace es representar a un jugador con un nombre, salud y un inventario con objetos. Esta clase redefine el método interactuar, donde el jugador salta y saluda, y también el método obtenerTipo para devolver “Jugador”.
+
+Se usa un constructor para asignar el nombre, la salud y crear un inventario inicial con objetos como espada, pico y comida. Tambien tenemos un método **mostrarInventario** que imprime los objetos que tiene el jugador.
+
+Esta clase nos sirve para crear jugadores específicos con características y comportamientos propios dentro del sistema de entidades.
+
+![Imagen de WhatsApp 2025-06-27 a las 16 46 06_03b9b5ad](https://github.com/user-attachments/assets/0dc9ff23-4486-44b7-bb7b-bc59c7241360)
+
+
